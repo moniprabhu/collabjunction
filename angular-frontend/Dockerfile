@@ -14,5 +14,5 @@ WORKDIR /app/dist/angular-frontend
 
 RUN ls -la
 
-ENTRYPOINT ["http-server", "-c1", "-p", "8080"]
+ENTRYPOINT ["http-server", "-c1", "-p", "80"]
 
